@@ -133,7 +133,7 @@ function multigreeting(name,code){
 
 function gcd(a,b){
     let d = 0
-    let g = 0
+    let g
     while (a%2===0 && b%2===0){
         a=a/2
         b=b/2
